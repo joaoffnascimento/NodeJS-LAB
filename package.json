@@ -1,0 +1,20 @@
+{
+  "name": "API-NodeJS-Express-Mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecurrentuser/API-NodeJS-Express-Mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecurrentuser/API-NodeJS-Express-Mongo/issues"
+  },
+  "homepage": "https://github.com/thecurrentuser/API-NodeJS-Express-Mongo#readme"
+}
