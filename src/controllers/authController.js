@@ -8,9 +8,10 @@ const router = express.Router();
 router.post("/register", async (req, res) => {
   // Adicionar uma validacao para aparecer uma mensagem mais "amigavel"
   // Caso já exista um usuario com email cadastrado
+  const { email } = req.body;
 
   try {
-    if (await user.findOne({ user }))
+    if (await user.findOne({ email }))
       return res.status(400).send({ error: "user already exists" });
     const user = await User.create(req.body);
     //Apagar password assim que o usuario for criado para nao sair no res
