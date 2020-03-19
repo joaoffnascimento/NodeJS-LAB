@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://joaoffnascimento:qwerty123@qdlab-o9ea5.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://joaoffnascimento:qwerty123@qdlab-o9ea5.mongodb.net/authApi?retryWrites=true&w=majority",
   { useMongoClient: true }
 );
 
