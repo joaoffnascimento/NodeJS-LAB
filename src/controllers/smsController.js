@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const authMiddleware = require('./../middlewares/auth');
-require('dotenv/config')
 const accountSid = "ACb2428312d4edd2fc80854babf89c980b"
 const authToken = "e406d3bad8bc542d3414f1b522e480af"
 const client = require('twilio')(accountSid, authToken)
