@@ -12,4 +12,4 @@ require('./controllers/authController')(app);
 require('./controllers/projectController')(app);
 require('./controllers/smsController')(app);
 
-app.listen(3000);
+app.listen(process.env.PORT);
