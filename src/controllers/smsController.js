@@ -7,7 +7,7 @@ const client = require('twilio')(accountSid, authToken)
 
 const MessagingResponse = require('twilio').twiml.MessagingResponse
 
-router.use(authMiddleware);
+//router.use(authMiddleware);
 
 router.post('/receive', async (req, res) => {
     const twiml = new MessagingResponse()
